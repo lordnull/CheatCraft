@@ -1,0 +1,15 @@
+{application, cheatcraft,
+ [
+  {description, "Cheat in Minecraft...using Erlang!"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+	{mod, {cheatcraft, []}},
+	{modules, [
+		nbt,
+		cheatcraft
+	]}
+ ]}.

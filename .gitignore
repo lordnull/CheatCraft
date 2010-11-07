@@ -1,0 +1,11 @@
+# build related stuff
+ebin/*
+
+# xcode and os x stuff.
+.DS_STORE
+*.xcodeproj
+build/*
+
+# vim stuff
+*.swp
+*.swo
